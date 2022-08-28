@@ -1,0 +1,81 @@
+:root {
+    --navBg: #daac00;
+    --bg: #fcc302;
+    --btn-color: #00bec9;
+}
+
+h1 {
+    font-size: 75px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
+h2 {
+    font-size: 67px;
+    letter-spacing: 1px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+
+h3 {
+    font-size: 50px;
+    color: #313243;
+    font-weight: 600;
+    font-family: "Poppins";
+}
+h4{
+    font-size: 32px;
+    color: #313243;
+    font-weight: 600;
+    font-family: "Poppins";
+
+}
+
+p {
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.btn-primay {
+    padding: 10px 15px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    background-color: #fcc302;
+    border: 3px solid white;
+
+}
+.btn-blue {
+    padding: 10px 15px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    font-weight: 600;
+    font-family: "Poppins";
+    background-color: var(--btn-color);
+    border: none;
+
+}
+.social{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+
+}
+.social div{
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background-color: var(--bg);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    color: white;
+}

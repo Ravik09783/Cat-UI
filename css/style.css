@@ -1,0 +1,360 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul li {
+    display: inline-block;
+    list-style: none;
+    font-size: 29px;
+    color: #ffffff;
+    font-weight: 500;
+    font-family: "Poppins";
+    padding-left: 58px;
+}
+
+img {
+    max-width: 100%;
+
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container {
+    max-width: 1450px;
+    margin: 0 auto;
+}
+
+/* -------------------navbar start------------------------ */
+.nav-bar {
+    display: flex;
+
+    background-color: var(--navBg);
+    padding: 15px 0;
+    align-items: center;
+}
+
+
+
+.search-bar {
+    padding-right: 138px;
+    display: flex;
+}
+
+
+.logo {
+    padding-left: 138px;
+
+}
+
+.search-bar input {
+    max-width: 202px;
+    max-height: 53px;
+    border: none;
+    background-color: var(--bg);
+    padding-left: 20px;
+    font-size: 21px;
+    letter-spacing: 0px;
+    color: #ffffff !important;
+    font-weight: 400;
+    font-family: "Poppins";
+}
+
+.hamburgur {
+    display: none;
+}
+
+.search-bar .btn {
+    height: 53px;
+    padding: 15px;
+    background-color: var(--btn-color);
+    border: none;
+    color: white;
+    font-size: 21px;
+
+}
+
+.menu {
+    padding-right: 65px;
+}
+
+/* ------------------------------------Dog section start--------------------- */
+.dog-container {
+    background-color: var(--bg);
+    padding: 150px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.dog-left {
+    padding-left: 138px;
+}
+
+.dog-right {
+    padding-right: 138px;
+}
+
+.btn-container {
+    margin-top: 30px;
+    gap: 50px;
+    display: flex;
+}
+
+.contact {
+    border-radius: 7px;
+}
+
+.our-services {
+    border-radius: 7px;
+}
+
+/* ------------------------------------------Next section--------------------- */
+.veterinarian {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 150px 138px;
+    grid-gap: 50px;
+    max-width: 100%;
+}
+
+.veterinarian .text-sec p {
+    color: black;
+}
+
+.img-sec {
+    display: flex;
+    align-items: flex-end;
+    object-fit: cover;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.text-sec h3 {
+    line-height: normal;
+    padding-bottom: 30px;
+}
+
+.text-sec p {
+    padding-bottom: 30px;
+}
+
+/* -------------------------New sectoin start--------------------- */
+.title {
+
+    background-color: var(--bg);
+    padding: 0 138px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 30px;
+}
+
+.cards p {
+    font-size: 18px;
+}
+
+.heading,
+.card-text {
+    text-align: center;
+}
+
+.heading {
+    padding: 50px 0;
+}
+
+.card-text h4 {
+    color: white;
+}
+
+/* <!-- ----------------New Section start------------------ --> */
+.dog-treat {
+    padding: 120px 138px 60px 138px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.treat-text {
+    text-align: end;
+
+}
+
+.treat-text p {
+    color: black;
+}
+
+/* ------------------------------------Buy Seciton Start---------------------------- */
+.buy-dog {
+    padding: 0  138px ;
+    margin-bottom: 120px;
+    background-color: var(--bg);
+
+
+}
+
+.buy-text {
+    text-align: center;
+}
+
+.buy-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-top: 30px;
+}
+
+.buy-btn-text {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+}
+
+.b1 {
+    text-align: center;
+}
+
+.buy-container h3 {
+    color: white;
+    padding: 30px 0;
+}
+
+.b1 button {
+    padding: 8px 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--btn-color);
+    color: white;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: "Poppins";
+    margin-bottom: 30px;
+}
+/* --------------------------------New Section Start----------------------------- */
+.vetcare-card p{
+    color: black;
+}
+.vetcare-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 138px;
+    text-align: center;
+    padding-top: 60px;
+}
+.vetcare{
+    margin-bottom: 120px;
+}
+.vetcare-heading{
+    text-align: center;
+}
+.vetcare-heading p{
+    color: black;
+}
+/* ----------------------------New Section start------------------------------------ */
+.vaccine{
+    background-image: url("../images/bg.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 80px 138px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    margin-bottom: 80px;
+
+}
+.vaccine h3{
+    color: white;
+}
+/* -------------------------------------New section start--------------------------------- */
+.recent-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 0 138px;
+    margin-bottom: 80px;
+    
+}
+.recent-container .recent-card p{
+   
+    color: black;
+}
+.recent-container .recent-card span{
+     color:#00bec9;
+    font-size: 17px;
+    font-family: "Poppins";
+}
+.recent-container .recent-card h4{
+    color: black;
+}
+.recent-container .recent-card p{
+    font-size: 17px;
+color: #313243;
+font-weight: 400;
+font-family: "Poppins";
+padding: 10px 0;
+
+
+}
+.recent-container .recent-card h5{
+    font-size: 21px;
+color: #00bec9;
+font-weight: 500;
+font-family: "Poppins";
+
+}
+/* ------------------------------Footer Start----------------------- */
+.footer-container{
+    padding: 100px 138px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 2fr;
+    background-color: #343434;
+}
+.foo-search{
+    text-align: end;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer a{
+    color: white;
+    padding-bottom: 10px;
+
+}
+.footer h4{
+    color: white;
+}
+.foo-search .social{
+    display: flex;
+    justify-content: end;
+}
+.foo-search div input{
+   width: 385px;
+    height: 90px;
+    background-color: var(--bg);
+    border: none;
+}
+.foo-search div button{
+    border: none;
+    padding: 20px;
+    height: 90px;
+    background-color: var(--btn-color);
+}
+.foo-search div button i{
+    font-size: 40px;
+    color: white;
+    
+}
+.foo-search div{
+    display: flex;
+    justify-content: end;
+    padding: 15px 0;
+}
+.foo-search .social div i{
+    font-size: 25px;
+}
